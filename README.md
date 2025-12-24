@@ -6,3 +6,4 @@ This repository contains my **Machine Learning study notes** in two parts:
 
 ## Folder Structure (recommended)
 - [Introduction to ML](class_1)
+- [Linear Regression](class-2)
