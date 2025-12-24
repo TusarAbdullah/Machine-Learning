@@ -5,3 +5,4 @@ This repository contains my **Machine Learning study notes** in two parts:
 2) **Code** (Python practice using notebooks/scripts)
 
 ## Folder Structure (recommended)
+- [](class_1)
