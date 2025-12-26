@@ -9,3 +9,5 @@ This repository contains my **Machine Learning study notes** in two parts:
 - [Linear Regression](class_2)
 - [Scaling(All about Feature Transformation)](class_3)
 - [Encoding](class_4)
+- [Decision Tree](class_5)
+  
