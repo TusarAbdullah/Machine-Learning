@@ -1,0 +1,81 @@
+Confusion Matrix, Precision, Recall, F1 Score in Machine Learning
+A confusion matrix is a table that is often used to evaluate the performance of a classification model. It shows the number of correct and incorrect predictions made by the model compared to the actual outcomes (or ground truth) in a binary or multi-class classification problem.
+
+The confusion matrix has four components: true positives (TP), true negatives (TN), false positives (FP), and false negatives (FN).
+
+True positives (TP) A true positive occurs when the model predicts a positive outcome, and the actual outcome is indeed positive
+True negatives (TN) A true negative occurs when the model predicts a negative outcome, and the actual outcome is indeed negative.
+False positives (FP) A false positive occurs when the model predicts a positive outcome, but the actual outcome is negative.
+False negatives (FN) A false negative occurs when the model predicts a negative outcome, but the actual outcome is positive.
+
+True Positive(TP): Images which are cat and actually predicted cat.
+True Negative(TN): Images which are not-cat and actually predicted not-cat
+False Positive(FP): Images which are not-cat and actually predicted as cat
+False Negative(FN): Images which are cat and actually predicted as not-cat
+
+The confusion matrix is arranged as a table with two rows and two columns for binary classification problems, or with more rows and columns for multi-class classification problems. The rows represent the predicted classes, and the columns represent the actual classes.
+
+What is Precision?
+Precision is a metric that measures the percentage of correctly predicted positive instances out of all the positive predictions made by a classification model. In other words, it indicates how often the model is correct when it predicts a positive result.
+
+Precision is calculated as the ratio of true positives (TP) to the sum of true positives and false positives (FP), or TP / (TP + FP).
+
+For example, suppose a binary classification model is used to predict whether or not a patient has a disease, and it produces the following results on a test dataset:
+
+True positives (TP): 100
+False positives (FP): 20
+True negatives (TN): 800
+False negatives (FN): 80
+
+Precision = TP / (TP + FP)
+= 100 / (100 + 20)
+= 0.83 or 83%
+
+This means that when the model predicts that a patient has the disease, it is correct 83% of the time. In other words, out of all the instances that the model predicts as positive, 83% are actually positive. A high precision score indicates that the model has a low false positive rate, meaning that it rarely predicts positive instances when they are actually negative.
+
+What is Recall?
+Recall is a metric that measures the percentage of correctly predicted positive instances out of all the actual positive instances in a dataset. In other words, it indicates how well the model is able to identify positive instances.
+
+Recall is calculated as the ratio of true positives (TP) to the sum of true positives and false negatives (FN), or TP / (TP + FN).
+
+For example, suppose a binary classification model is used to predict whether or not a patient has a disease, and it produces the following results on a test dataset:
+
+True positives (TP): 100
+False positives (FP): 20
+True negatives (TN): 800
+False negatives (FN): 80
+
+Recall = TP / (TP + FN)
+= 100 / (100 + 80)
+= 0.56 or 56%
+
+This means that the model is able to correctly identify 56% of all the positive instances in the dataset. In other words, out of all the instances that are actually positive, the model is able to correctly predict 56% of them. A high recall score indicates that the model has a low false negative rate, meaning that it rarely misses positive instances.
+
+Difference between Precision & Recall
+
+Precision and recall are two important performance metrics for evaluating the effectiveness of a classification model, but they measure different aspects of the model's performance.
+
+Precision measures the percentage of correctly predicted positive instances out of all the positive predictions made by the model. It focuses on the accuracy of the positive predictions and indicates how often the model is correct when it predicts a positive result. A high precision score means that the model has a low false positive rate, meaning that it rarely predicts positive instances when they are actually negative.
+
+Recall, on the other hand, measures the percentage of correctly predicted positive instances out of all the actual positive instances in a dataset. It focuses on the completeness of the positive predictions and indicates how well the model is able to identify positive instances. A high recall score means that the model has a low false negative rate, meaning that it rarely misses positive instances.
+
+In general, a model with high precision and low recall is conservative and tends to make few positive predictions, but the ones it does make are likely to be correct. Conversely, a model with high recall and low precision is more liberal and tends to make many positive predictions, but some of them may be incorrect.
+
+The choice between precision and recall as the primary metric to optimize for depends on the specific application and its requirements. In some cases, precision may be more important (e.g., in medical diagnosis where false positives can lead to unnecessary treatment),
+Let's say we were trying to detect if an apple was poison or not. In this case, we would want to reduce the amount of False Negatives because we hope to not miss any poison apples in the batch. Recall would be the best evaluation metric to use here because it measures how many poison apples we might have missed.
+
+F1 Score
+F1 score is a machine learning evaluation metric that measures a model's accuracy. It combines the precision and recall scores of a model. The accuracy metric computes how many times a model made a correct prediction across the entire dataset. It ranges from 0 to 1, with a higher value indicating better performance. An F1 score of 1 indicates perfect precision and recall, while an F1 score of 0 indicates that the model is not able to correctly predict any positive instances. The F1 score is calculated as follows:
+
+F1 score = 2 * (precision * recall) / (precision + recall)
+
+**F1 score ** ** Interpretation **
+
+0.9 Very good
+0.8 - 0.9 Good
+0.5 - 0.8 OK
+< 0.5 Not good
+
+The formula for accuracy is:
+
+Accuracy = (TP + TN) / (TP + FP + TN + FN)
