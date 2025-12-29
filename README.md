@@ -10,4 +10,5 @@ This repository contains my **Machine Learning study notes** in two parts:
 - [Scaling(All about Feature Transformation)](class_3)
 - [Encoding](class_4)
 - [Decision Tree](class_5)
+- [Confution Matrix](class_6)
   
