@@ -11,4 +11,5 @@ This repository contains my **Machine Learning study notes** in two parts:
 - [Encoding](class_4)
 - [Decision Tree](class_5)
 - [Confution Matrix](class_6)
+- [kNN](class_7)
   
