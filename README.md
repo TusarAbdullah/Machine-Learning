@@ -6,11 +6,11 @@ This repository contains my **Machine Learning study notes** in two parts:
 
 ## Folder Structure (recommended)
 - [1) Introduction to ML](class_1)
-- [Linear Regression](class_2)
-- [Scaling(All about Feature Transformation)](class_3)
-- [Encoding](class_4)
-- [Decision Tree](class_5)
-- [Confution Matrix](class_6)
-- [KNN](class_7)
-- [KMeans_Clustering_UnSupLer](class_8)
+- [2) Linear Regression](class_2)
+- [3) Scaling(All about Feature Transformation)](class_3)
+- [4) Encoding](class_4)
+- [5) Decision Tree](class_5)
+- [6) Confution Matrix](class_6)
+- [7) KNN](class_7)
+- [8) KMeans_Clustering_UnSupLer](class_8)
   
