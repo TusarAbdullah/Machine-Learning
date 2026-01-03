@@ -5,7 +5,7 @@ This repository contains my **Machine Learning study notes** in two parts:
 2) **Code** (Python practice using notebooks/scripts + particular dataset)
 
 ## Folder Structure (recommended)
-- [1 Introduction to ML](class_1)
+- [1) Introduction to ML](class_1)
 - [Linear Regression](class_2)
 - [Scaling(All about Feature Transformation)](class_3)
 - [Encoding](class_4)
