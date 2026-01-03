@@ -13,4 +13,5 @@ This repository contains my **Machine Learning study notes** in two parts:
 - [6) Confution Matrix](class_6)
 - [7) KNN](class_7)
 - [8) KMeans_Clustering_UnSupLer](class_8)
+- [9) Logistic Regression](class_9)
   
