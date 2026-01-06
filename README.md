@@ -14,5 +14,6 @@ This repository contains my **Machine Learning study notes** in two parts:
 - [7) KNN](class_7)
 - [8) KMeans_Clustering_UnSupLer](class_8)
 - [9) Logistic Regression](class_9)
-- [10) Gradient Decent and Multi Variable Regression](class_10) 
+- [10) Gradient Decent and Multi Variable Regression](class_10)
+- [11) Cross Validation](class_11)
   
