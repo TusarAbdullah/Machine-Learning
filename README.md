@@ -16,4 +16,5 @@ This repository contains my **Machine Learning study notes** in two parts:
 - [9) Logistic Regression](class_9)
 - [10) Gradient Decent and Multi Variable Regression](class_10)
 - [11) Cross Validation](class_11)
+- [12) Random Forest](class_12)
   
