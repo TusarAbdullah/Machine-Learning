@@ -1,4 +1,4 @@
-Random Forest হলো একটি Machine Learning model — আরও নির্দিষ্টভাবে বললে এটি একটি Supervised Learning ensemble model।
+#Random Forest হলো একটি Machine Learning model — আরও নির্দিষ্টভাবে বললে এটি একটি Supervised Learning ensemble model।
 
 সহজভাবে বুঝাই
 
