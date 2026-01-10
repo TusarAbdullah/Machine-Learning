@@ -17,4 +17,6 @@ This repository contains my **Machine Learning study notes** in two parts:
 - [10) Gradient Decent and Multi Variable Regression](class_10)
 - [11) Cross Validation](class_11)
 - [12) Random Forest](class_12)
+- [13) NLP-(stemming || lemmatization || count_vectorizer || TF_IDF_vectorizer || Word2vec_vectorizer)](class_13)
+
   
