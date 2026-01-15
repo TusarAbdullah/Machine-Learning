@@ -20,5 +20,6 @@ This repository contains my **Machine Learning study notes** in two parts:
 - [13) NLP-(stemming || lemmatization || count_vectorizer || TF_IDF_vectorizer || Word2vec_vectorizer)](class_13)
 - [14) Naive Bayes Algorithm](class_14)
 - [15) Fitting And Dimensionally  Reduction](class_15)
+- [16) svm](class_16)
 
   
